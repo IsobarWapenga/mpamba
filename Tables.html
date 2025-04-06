@@ -1,41 +1,31 @@
+<!docutype html>
 <html>
     <head>
         <style>
-            a:link {color: rgb(33, 98, 151);}
-            a:visited {color: rgb(214, 164, 27);}
-            a:hover {color: blue;font-style:italic ;}
-            body {background-color: aqua;}
-            #customers {font: 2px rgb(27, 19, 19) garamond;border-collapse:collapse;width:90%;}
-            #customers td, #customers th {border:1px;padding: 9px;}
-            #customers tr {background-color: azure;}
-            #custmers tr:nth-child(odd){background-color: rgb(27, 8, 46);}
-            #customers tr:nth-child(even){color:rgb(12, 17, 12);}
-            #customers td {
-padding-top: 12px;padding-bottom: 10px;border: red;text-align: left;border:1px black solid;
-            }
-            #customers tr:hover {background-color: rgb(236, 102, 180);}
-            #customers td:hover {background-color: rgb(142, 53, 201);}
-            #customers th:hover {background-color: rgb(46, 158, 111);}
-            #customers td(even):hover {background-color:red;}
-            #customers th {
-                background-color:rgb(184, 22, 149);padding-top: 8px;padding-bottom: 10px;text-align: center;border: 1px solid black;
-            }
-</style></head>
-        <body>
-            <table id="customers">
-                <tr><th>NAME</th>
-                <th>QUAL</th>
-            <th>AGE</th></tr>
-                <tr>
-                    <td>Chiyamiko</td>
-                    <td><a href="https://isobarwapenga.github.io/mpamba/selektion.html" target="_blank">Diploma</a> in Acc</td>
-                    <td>28</td>
-                </tr>
-                <tr>
-                    <td>Isobar</td><td>Diploma in Acting</td><td>30</td>
-                </tr>
-            </table>
-        </body>
-    
-    
+
+            /*navibar*/
+  .topnav {
+  overflow: hidden;padding:30px 10px;position:fixed;
+  background-color: white;width:100%;
+}
+
+.topnav a {float:left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:730px){
+    .topnav{width:100%}
+    h1{text-align:center;background-color:green;font-size:x-large;}
+}
+        </style>
+    </head>
+    <div class="topnav">
+        <a>Moni</a><a>Nkhani</a>
+    </div>
+    <h1>JustSam</h1>
+    <p>Takulandirani kuno a Yvonne</p>
 </html>
