@@ -1,418 +1,46 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+<!docutype html>
+    <html lang="en">
 
-.main {
-    width: 100%;
-    background: linear-gradient(to top, rgb(0, 0, 0, 0.5)50%, rgb(0, 0, 0, 0.5)50%), url(1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 109vh;
-}
+    <head>
+        <title>chiya</title>
+        <link rel="stylesheet" href="style.css">
 
-.navbar {
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
+      
+    </head>
 
-.icon {
-    width: 200px;
-    float: left;
-    height: 70px;
-}
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon"><div class="logo">
+                    <h2>JustSam</h2></div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Takulanirani</a></li>
+                        <li><a href="#">Nkhani</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input class="srch" type="search" name="" style="color: blue;" placeholder="sakani">
+                    <a href="#"> <button class="btn">Fufuzani</button> </a>
+                </div>
+                
+            </div>
+            <div class="content">
+                <h1>Poems,<br><span>Stories &</span><br>Articles</h1>
+                <p class="par">Thank God we are progressing<br>Thank God we are progressing<br>Thank God we are progressing</p>
 
-.logo {
-    color: rgb(27, 85, 27);
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    transition: 1.9s ease-in-out;
-}
+                <button class="cn"><a href="#">Wakonzeka Yvone?</a></button>
+                <div class="form">
+                    <h2>logani apa</h2><br>
+                    <input type="email" name="email" placeholder="lowetsani email"><br>
+                    <input type="password" placeholder="lowetsani password"><br>
+                    <a href="#"></a><button class="btnn">logani</a></button>
 
-.logo:hover {
-    color: rgb(104, 185, 104);
-}
+                </div>
+            </div>
+        </div>
+    </body>
 
-.menu {
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-
-ul {
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li {
-    list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: green;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-
-ul li :hover {
-    color: aqua;
-}
-
-.search {
-    width: 330px;
-    float: left;
-    margin-left: 270px;
-}
-
-.srch {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid rgb(18, 73, 18);
-    margin-top: 20px;
-    color: rgb(133, 29, 29);
-    border-right: none;
-    font-size: 16px;
-    float: left;
-    padding: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.btn {
-    width: 100px;
-    height: 40px;
-    background: orange;
-    border: 2px solid orange;
-    margin-top: 20px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.btn:hover {
-    background-color: rgb(151, 73, 224);
-}
-
-.srch:focus {
-    outline: none;
-}
-
-.content {
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: black;
-    position: relative;
-}
-
-.content .par {
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-}
-
-.content h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    margin-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
-}
-
-.content .cn {
-    width: 160px;
-    height: 40px;
-    background: orange;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 14px;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 5px;
-}
-
-.content .cn a {
-    text-decoration: none;
-    transition: 0.5s ease-in-out;
-    color: black;
-}
-
-.cn:hover {
-    background-color: rgb(192, 156, 90);
-}
-
-.content span {
-    color: rgb(54, 48, 35);
-    font-size: 65px;
-}
-
-.form {
-    width: 250px;
-    height: 380px;
-    background: linear-gradient(to top, rgb(66, 59, 59)50%, rgb(66, 59, 59)50%);
-    position: absolute;
-    top: -20px;
-    left: 870px;
-    border-radius: 10px;
-    padding: 25px;
-}
-
-.form h2 {
-    width: 220px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: #000;
-    font-size: 22px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-}
-
-.form input {
-    width: 240px;
-    height: 35px;
-    background: transparent;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    margin-top: 5px;
-}
-
-.form input:focus {
-    outline: none;
-}
-
-::placeholder {
-    color: rgb(9, 43, 9);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.btnn {
-    width: 240px;
-    height: 40px;
-    background: orangered;
-    border: none;
-    margin-top: 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: aliceblue;
-}
-
-.btnn:hover {
-    background-color: rgb(59, 206, 96);
-    color: aliceblue;
-    transition: 1.2s ease-in-out;
-}
-
-@media screen and (max-width:1200px) {
-    .navbar {
-        width: 100%;
-        height: 100px;
-    }
-
-    ul {
-        margin-left: 30px;
-    }
-
-    ul li {
-        margin-left: 60px;
-    }
-
-    ul li a {
-        font-size: 1.6vw;
-    }
-
-    .search {
-        margin-top: 3px;
-        margin-left: 290px;
-    }
-
-    .srch {
-        height: 40px;
-        width: 190px;
-        font-size: 14px;
-    }
-
-    .btn {
-        height: 40px;
-        width: 80px;
-    }
-
-    .content {
-        width: 100%;
-    }
-
-    .content h1,
-    .content span {
-        font-size: 4.5vw;
-    }
-
-    .content .par {
-        width: 90%;
-        font-size: 1.5vw;
-    }
-
-    .content .cn {
-        width: 13%;
-        height: 3.5vw;
-        font-size: 1.8vw;
-    }
-
-    .content a {
-        font-size: 1.6vw;
-    }
-    @media screen and (max-width:1170px) {
-        /*login box*/
-        .main{
-            padding-left: 20px;
-            height: 180vh;
-        }
-        
-.form {
-    width: 250px;
-    height: 380px;
-    background: linear-gradient(to top, rgb(66, 59, 59)50%, rgb(66, 59, 59)50%);
-    position: absolute;
-    top: 420px;
-    left: 50px;
-    border-radius: 10px;
-    padding: 25px;
-    margin-left: -30px;
-}
-
-.form input {
-    width: 240px;
-    height: 35px;
-    background: transparent;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    margin-top: 5px;
-}
-.btnn a{
-    font-size: 16px;
-}
-.btnn .link a{
-    font-size: 16px;
-}
-    }
-   @media screen and (max-width:450px) {
-    .content h1 {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 300px;
-        margin-left: 20px;
-        margin-top: 9%;
-        letter-spacing: 2px;
-    }
-    .content span{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 80px;
-        margin-left: 20px;
-        margin-top: 9%;
-        letter-spacing: 2px;
-    }
-    .logo{
-        margin-left: 140px;
-        font-size: 6vw;
-    }
-    ul{
-        margin-top: -25px;
-    }
-    ul li{
-        margin-left: 42px;
-    }
-    
-        font-size: 2vw;
-    }
-    .search{
-        margin-top: 8px;
-        margin-left: 48px;
-    }
-            
-.form {
-    width: 70%;
-    height: 500px;
-    background: linear-gradient(to top, rgb(66, 59, 59)50%, rgb(66, 59, 59)50%);
-    position: absolute;
-    top: 420px;
-    left: 50px;
-    border-radius: 10px;
-   
-    margin-left: 5%;
-    margin-right: 8%;
-}
-
-.form input {
-    width: 100%;
-    height: 60px;
-    background: transparent;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    margin-top: 55px;
-    font-size: 55px;
-}
-ul li {
-    list-style: none;
-    margin-left: 5px;
-    margin-top: 42px;
-    
-}
-
-ul li a {
-    text-decoration: none;
-    color: rgb(9, 26, 9);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-    font-size: 50px;
-}
-.form h2 {
-    width: 380px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: #000;
-    font-size: 55px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px 23px;
-}
-.btnn {
-    width: 420px;
-    height: 100px;
-    background: rgb(158, 202, 54);
-    border: none;
-    margin-top: 30px;
-    font-size: 50px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: aliceblue;
-    padding: 20px;
-}
-
-.content .par{
-    font: size 120px;
-}
-   }
+    </html>
